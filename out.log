@@ -1,0 +1,124 @@
+nohup: 忽略输入
+/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/site-packages/paddle/vision/transforms/functional_pil.py:36: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  'nearest': Image.NEAREST,
+
+/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/site-packages/paddle/vision/transforms/functional_pil.py:37: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  'bilinear': Image.BILINEAR,
+
+/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/site-packages/paddle/vision/transforms/functional_pil.py:38: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  'bicubic': Image.BICUBIC,
+
+/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/site-packages/paddle/vision/transforms/functional_pil.py:39: DeprecationWarning: BOX is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BOX instead.
+  'box': Image.BOX,
+
+/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/site-packages/paddle/vision/transforms/functional_pil.py:40: DeprecationWarning: LANCZOS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  'lanczos': Image.LANCZOS,
+
+/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/site-packages/paddle/vision/transforms/functional_pil.py:41: DeprecationWarning: HAMMING is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.HAMMING instead.
+  'hamming': Image.HAMMING
+
+/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/site-packages/skimage/morphology/_skeletonize.py:241: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  0, 1, 1, 0, 0, 1, 0, 0, 0], dtype=np.bool)
+
+/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/site-packages/skimage/morphology/_skeletonize.py:256: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  0, 0, 0, 0, 0, 0, 0, 0, 0], dtype=np.bool)
+
+[2023/05/17 09:12:26] ppocr DEBUG: Namespace(alpha=1.0, benchmark=False, beta=1.0, cls_batch_num=6, cls_image_shape='3, 48, 192', cls_model_dir='/home/hello/.paddleocr/whl/cls/ch_ppocr_mobile_v2.0_cls_infer', cls_thresh=0.9, cpu_threads=10, crop_res_save_dir='./output', det=True, det_algorithm='DB', det_box_type='quad', det_db_box_thresh=0.6, det_db_score_mode='fast', det_db_thresh=0.3, det_db_unclip_ratio=1.5, det_east_cover_thresh=0.1, det_east_nms_thresh=0.2, det_east_score_thresh=0.8, det_limit_side_len=960, det_limit_type='max', det_model_dir='/home/hello/.paddleocr/whl/det/ch/ch_PP-OCRv3_det_infer', det_pse_box_thresh=0.85, det_pse_min_area=16, det_pse_scale=1, det_pse_thresh=0, det_sast_nms_thresh=0.2, det_sast_score_thresh=0.5, draw_img_save_dir='./inference_results', drop_score=0.5, e2e_algorithm='PGNet', e2e_char_dict_path='./ppocr/utils/ic15_dict.txt', e2e_limit_side_len=768, e2e_limit_type='max', e2e_model_dir=None, e2e_pgnet_mode='fast', e2e_pgnet_score_thresh=0.5, e2e_pgnet_valid_set='totaltext', enable_mkldnn=False, fourier_degree=5, gpu_mem=500, help='==SUPPRESS==', image_dir=None, image_orientation=False, ir_optim=True, kie_algorithm='LayoutXLM', label_list=['0', '180'], lang='ch', layout=True, layout_dict_path=None, layout_model_dir=None, layout_nms_threshold=0.5, layout_score_threshold=0.5, max_batch_size=10, max_text_length=25, merge_no_span_structure=True, min_subgraph_size=15, mode='structure', ocr=True, ocr_order_method=None, ocr_version='PP-OCRv3', output='./output', page_num=0, precision='fp32', process_id=0, re_model_dir=None, rec=True, rec_algorithm='SVTR_LCNet', rec_batch_num=6, rec_char_dict_path='/home/hello/gzc/3.project/yolov5-master/paddleocr/ppocr/utils/ppocr_keys_v1.txt', rec_image_inverse=True, rec_image_shape='3, 48, 320', rec_model_dir='/home/hello/.paddleocr/whl/rec/ch/ch_PP-OCRv3_rec_infer', recovery=False, save_crop_res=False, save_log_path='./log_output/', scales=[8, 16, 32], ser_dict_path='../train_data/XFUND/class_list_xfun.txt', ser_model_dir=None, show_log=True, sr_batch_num=1, sr_image_shape='3, 32, 128', sr_model_dir=None, structure_version='PP-StructureV2', table=True, table_algorithm='TableAttn', table_char_dict_path=None, table_max_len=488, table_model_dir=None, total_process_num=1, type='ocr', use_angle_cls=True, use_dilation=False, use_gpu=False, use_mp=False, use_npu=False, use_onnx=False, use_pdf2docx_api=False, use_pdserving=False, use_space_char=True, use_tensorrt=False, use_visual_backbone=True, use_xpu=False, vis_font_path='./doc/fonts/simfang.ttf', warmup=False)
+[37m---    Fused 0 subgraphs into layer_norm op.[0m
+[37m---    Fused 0 subgraphs into layer_norm op.[0m
+[37m---    Fused 0 subgraphs into layer_norm op.[0m
+[2023/05/17 09:12:26] ppocr DEBUG: Namespace(alpha=1.0, benchmark=False, beta=1.0, cls_batch_num=6, cls_image_shape='3, 48, 192', cls_model_dir=None, cls_thresh=0.9, cpu_threads=10, crop_res_save_dir='./output', det=True, det_algorithm='DB', det_box_type='quad', det_db_box_thresh=0.6, det_db_score_mode='fast', det_db_thresh=0.3, det_db_unclip_ratio=1.5, det_east_cover_thresh=0.1, det_east_nms_thresh=0.2, det_east_score_thresh=0.8, det_limit_side_len=960, det_limit_type='max', det_model_dir='/home/hello/.paddleocr/whl/det/ch/ch_PP-OCRv3_det_infer', det_pse_box_thresh=0.85, det_pse_min_area=16, det_pse_scale=1, det_pse_thresh=0, det_sast_nms_thresh=0.2, det_sast_score_thresh=0.5, draw_img_save_dir='./inference_results', drop_score=0.5, e2e_algorithm='PGNet', e2e_char_dict_path='./ppocr/utils/ic15_dict.txt', e2e_limit_side_len=768, e2e_limit_type='max', e2e_model_dir=None, e2e_pgnet_mode='fast', e2e_pgnet_score_thresh=0.5, e2e_pgnet_valid_set='totaltext', enable_mkldnn=False, fourier_degree=5, gpu_mem=500, help='==SUPPRESS==', image_dir=None, image_orientation=False, ir_optim=True, kie_algorithm='LayoutXLM', label_list=['0', '180'], lang='ch', layout=True, layout_dict_path='/home/hello/gzc/3.project/yolov5-master/paddleocr/ppocr/utils/dict/layout_dict/layout_cdla_dict.txt', layout_model_dir='/home/hello/.paddleocr/whl/layout/picodet_lcnet_x1_0_fgd_layout_cdla_infer', layout_nms_threshold=0.5, layout_score_threshold=0.5, max_batch_size=10, max_text_length=25, merge_no_span_structure=True, min_subgraph_size=15, mode='structure', ocr=True, ocr_order_method=None, ocr_version='PP-OCRv3', output='./output', page_num=0, precision='fp32', process_id=0, re_model_dir=None, rec=True, rec_algorithm='SVTR_LCNet', rec_batch_num=6, rec_char_dict_path='/home/hello/gzc/3.project/yolov5-master/paddleocr/ppocr/utils/ppocr_keys_v1.txt', rec_image_inverse=True, rec_image_shape='3, 48, 320', rec_model_dir='/home/hello/.paddleocr/whl/rec/ch/ch_PP-OCRv3_rec_infer', recovery=False, save_crop_res=False, save_log_path='./log_output/', scales=[8, 16, 32], ser_dict_path='../train_data/XFUND/class_list_xfun.txt', ser_model_dir=None, show_log=True, sr_batch_num=1, sr_image_shape='3, 32, 128', sr_model_dir=None, structure_version='PP-StructureV2', table=True, table_algorithm='TableAttn', table_char_dict_path='/home/hello/gzc/3.project/yolov5-master/paddleocr/ppocr/utils/dict/table_structure_dict_ch.txt', table_max_len=488, table_model_dir='/home/hello/.paddleocr/whl/table/ch_ppstructure_mobile_v2.0_SLANet_infer', total_process_num=1, type='ocr', use_angle_cls=False, use_dilation=False, use_gpu=False, use_mp=False, use_npu=False, use_onnx=False, use_pdf2docx_api=False, use_pdserving=False, use_space_char=True, use_tensorrt=False, use_visual_backbone=True, use_xpu=False, vis_font_path='./doc/fonts/simfang.ttf', warmup=False)
+[37m---    Fused 0 subgraphs into layer_norm op.[0m
+[37m---    Fused 0 subgraphs into layer_norm op.[0m
+[37m---    Fused 0 subgraphs into layer_norm op.[0m
+[37m---    Fused 0 subgraphs into layer_norm op.[0m
+[37m---    Fused 0 subgraphs into layer_norm op.[0m
+ * Serving Flask app 'BasicCapApp' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://192.168.100.248:8888/ (Press CTRL+C to quit)
+Start to convert ./static/AnalysisSystem/format_converion/docx/upload_file/2023-05-19-09-01-28/ch_2.pdf
+[1;36m[1/4] Opening document...[0m
+[1;36m[2/4] Analyzing document...[0m
+[1;36m[3/4] Parsing pages...[0m
+(1/1) Page 1
+[1;36m[4/4] Creating pages...[0m
+(1/1) Page 1
+Terminated in 3.80s.
+172.16.16.118 - - [19/May/2023 09:01:31] "POST /DOC/PDF2DOCX HTTP/1.0" 200 -
+172.16.20.42 - - [19/May/2023 09:41:35] "[33mGET / HTTP/1.1[0m" 404 -
+172.16.20.42 - - [19/May/2023 09:41:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+YOLOv5 🚀 2023-1-4 Python-3.7.11 torch-1.7.0+cu110 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+
+Fusing layers... 
+YOLOv5m summary: 374 layers, 21804348 parameters, 0 gradients, 57.5 GFLOPs
+[2023/05/23 09:00:37] ppocr DEBUG: dt_boxes num : 42, elapse : 0.035019636154174805
+[2023/05/23 09:00:38] ppocr DEBUG: rec_res num  : 42, elapse : 1.4667110443115234
+Exception on /DOC/TableAnalysis [POST]
+Traceback (most recent call last):
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "BasicCapApp.py", line 59, in TableAnalysis_
+    return jsonify(data)
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/json/__init__.py", line 355, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/json/__init__.py", line 133, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/json/__init__.py", line 57, in default
+    return super().default(o)
+  File "/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+172.16.16.118 - - [23/May/2023 09:00:39] "[35m[1mPOST /DOC/TableAnalysis HTTP/1.0[0m" 500 -
+YOLOv5 🚀 2023-1-4 Python-3.7.11 torch-1.7.0+cu110 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+
+Fusing layers... 
+YOLOv5m summary: 374 layers, 21804348 parameters, 0 gradients, 57.5 GFLOPs
+[2023/05/23 09:01:24] ppocr DEBUG: dt_boxes num : 42, elapse : 0.03141498565673828
+[2023/05/23 09:01:25] ppocr DEBUG: rec_res num  : 42, elapse : 1.4554593563079834
+Exception on /DOC/TableAnalysis [POST]
+Traceback (most recent call last):
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "BasicCapApp.py", line 59, in TableAnalysis_
+    return jsonify(data)
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/json/__init__.py", line 355, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/json/__init__.py", line 133, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/hello/.local/lib/python3.7/site-packages/flask/json/__init__.py", line 57, in default
+    return super().default(o)
+  File "/home/hello/anaconda3/envs/gzc_torch/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+172.16.16.118 - - [23/May/2023 09:01:25] "[35m[1mPOST /DOC/TableAnalysis HTTP/1.0[0m" 500 -
